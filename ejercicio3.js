@@ -3,8 +3,6 @@
 
 
 // Ejercicio resuelto en casa
-
-
 function translateMessage(message) {
     const morseToText = {
         ".-": "A", "-...": "B", "-.-.": "C", "-..": "D", ".": "E",
@@ -71,6 +69,6 @@ function translateMessage(message) {
     const message1 = ".... --- .-.. .- / -- ..- -. -.. ---";
     const message2 = "HOLA MUNDO"
 
-    translateMessage(message1); // Imprimirá "THE IS THANCK MORNINGS"
+    translateMessage(message1);
     translateMessage(message2);
 
